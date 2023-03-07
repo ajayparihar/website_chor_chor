@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+  border-bottom: 1px solid black;
+  color: white;
+  /* margin-bottom: 20px; */
+  position: fixed;
+}
+.header-back {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(12, 12, 12);
+  border-bottom: 1px solid black;
+  color: white;
+  /* margin-bottom: 20px; */
+  /* position: fixed; */
+  visibility: hidden;
+}
+
+.green-container {
+  background-color: #9acd32;
+  color: #adff2f;
+  text-align: center;
+  height: 192.367px;
+  padding: 48px 48px;
+  border: 1px solid #9acd32;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.green-container h1 {
+  text-align: center;
+  font-size: 63px;
+  font-weight: 500;
+  width: 1140px;
+}
+
+div:nth-child(2) p {
+  text-align: center;
+  font-size: 21px;
+  width: 1140px;
+}
+button {
+  /* width: 79px; */
+  padding: 6px 12px;
+  text-align: center;
+  border: 1px solid #204d74;
+  background-color: rgb(40, 97, 154);
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 4px;
+  /* transition: all 0.5s; */
+}
+button:hover {
+  background-color: rgb(40, 97, 154);
+  cursor: pointer;
+}
+button:active {
+  background-color: rgb(28, 73, 117);
+}
+
+/* Superior collaboration section */
+.inner-superior {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  align-content: space-between;
+  width: 1140px;
+  height: 491.4px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#superior-heading {
+  display: flex;
+  height: 119.6px;
+  width: 100%;
+  /* box-sizing: inherit; */
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+#superior-heading h1 {
+  margin: 20px 0px 10px 0px;
+  font-size: 36px;
+  font-weight: 500;
+  text-align: center;
+}
+h1 small {
+  font-size: 65%;
+  color: #959595;
+}
+#superior-heading p {
+  margin: 14px 0px;
+  font-size: 14px;
+  color: #959595;
+  text-align: center;
+}
+
+#dummy-images > div {
+  float: left;
+  height: 466.4px;
+  margin-bottom: 25px;
+  /* padding: 0px 15px; */
+  /* width: 30%; */
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+}
+
+#dummy-images img {
+  border-radius: 6px;
+  height: 300px;
+  width: 360px;
+  box-sizing: content-box;
+  display: flex;
+}
+
+/* Footer section css */
+
+footer {
+  font-size: 14px;
+  padding: 30px 0px 30px 0px;
+  max-height: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #959595;
+}
+footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-self: center;
+  margin-bottom: 10px;
+}
+p > a {
+  text-decoration: none;
+  color: #337ab7;
+}
+footer a:hover {
+  text-decoration: underline;
+}
+
+#Copyright p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
